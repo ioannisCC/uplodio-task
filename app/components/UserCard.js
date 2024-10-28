@@ -51,7 +51,7 @@ const UserCard = () => {
         <h2 className="title">
           {user.name.title}, {user.name.first} {user.name.last}
         </h2><br></br>
-        <p className="info"> <strong><i>Gender:</i></strong></p> <span className='info-value'>{user.gender.charAt(0).toUpperCase() + user.gender.slice(1)} </span>
+        <p className="info"> <strong><i>Gender:</i></strong> {user.gender.charAt(0).toUpperCase() + user.gender.slice(1)} </p>
         <p className="info"><strong><i>Email:</i></strong> {user.email}</p>
         <p className="info"><strong><i>Phone:</i></strong> {user.phone}</p>
         <p className="info">
